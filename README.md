@@ -6,7 +6,6 @@ This repository provides evaluation code and dataset details for the paper:
 
 > **EduQS: A Comprehensive Benchmark for Evaluating Multi-Modal Large Language Models on Chinese Education Question Solving**
 
----
 
 ## 🔍 Introduction
 
@@ -18,8 +17,7 @@ Each question includes:
 - **Side information** (structured knowledge points and similar questions)
 
 These features support fine-grained evaluation of MM-LLMs on **reasoning**, **in-context learning**, and **generalization**.
-
----
+![](assets/Biology.png)  
 
 ## 📦 Dataset Format
 
