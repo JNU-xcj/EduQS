@@ -1,16 +1,50 @@
 # EduQS
-[**🤗 Dataset**](https://huggingface.co/datasets/chaosY/EduQS) | [**GitHub**](https://github.com/JNU-xcj/EduQS)
 
-This repo contains the evaluation code for the paper [**CMMU: A Benchmark for Chinese Multi-modal Multi-type Question Understanding and Reasoning**](https://arxiv.org/abs/2401.14011) .
+[**🤗 Dataset**](https://huggingface.co/datasets/chaosY/EduQS) | [**Paper**](https://your-paper-link.com)
 
-We release the validation set of CMMU, you can download it from [here](https://huggingface.co/datasets/BAAI/CMMU). The test set will be hosted on the [flageval platform](https://flageval.baai.ac.cn/). Users can test by uploading their models.
+This repository provides evaluation code and dataset details for the paper:
 
-## Introduction
-CMMU is a novel multi-modal benchmark designed to evaluate domain-specific knowledge across seven foundational subjects: math, biology, physics, chemistry, geography, politics, and history. It comprises 3603 questions, incorporating text and images, drawn from a range of Chinese exams. Spanning primary to high school levels, CMMU offers a thorough evaluation of model capabilities across different educational stages.
-![](assets/example.png)  
+> **EduQS: A Comprehensive Benchmark for Evaluating Multi-Modal Large Language Models on Chinese Education Question Solving**
 
-## Evaluation Results
-We currently evaluated 10 models on CMMU. The results are shown in the following table.
+---
+
+## 🔍 Introduction
+
+**EduQS** is a large-scale Chinese multimodal educational dataset containing **52,056 questions**, spanning **7 question types** and **5 difficulty levels** across **6 subjects**: *Mathematics, Physics, Chemistry, Biology, Geography,* and *History*.
+
+Each question includes:
+- Multimodal **question description** (text + image)
+- **Solution information** (difficulty, answer, full explanation)
+- **Side information** (structured knowledge points and similar questions)
+
+These features support fine-grained evaluation of MM-LLMs on **reasoning**, **learning**, and **answering**.
+
+---
+
+## 📦 Dataset Format
+
+Example (`.jsonl` format):
+
+```json
+{
+  "subject": "biology",
+  "id": "biology_799",
+  "type": "fill-in-the-blank",
+  "grade": "high",
+  "difficulty": "hard",
+  "question_info": "...题干...",
+  "solution_info": "...解析...",
+  "answer": "...标准答案...",
+  "side_information": ["...辅助知识点1...", "...辅助知识点2..."],
+  "image": {
+    "path": "val/images/high_biology_799.png"
+  }
+}
+
+![](assets/Biology.png)  
+
+## 📊 Evaluation
+We evaluate MM-LLMs on answer accuracy and reasoning quality using both human-annotated judgments and automated metrics such as BLEU and ROUGE.
 
 **Evaluate fill-in-the-blank questions by GPT-4**
 
