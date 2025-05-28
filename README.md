@@ -1,5 +1,5 @@
 # EduQS
-[**📖 Paper**](https://arxiv.org/abs/2401.14011) | [**🤗 Dataset**](https://huggingface.co/datasets/BAAI/CMMU) | [**GitHub**](https://github.com/FlagOpen/CMMU)
+[**🤗 Dataset**](https://huggingface.co/datasets/chaosY/EduQS) | [**GitHub**](https://github.com/JNU-xcj/EduQS)
 
 This repo contains the evaluation code for the paper [**CMMU: A Benchmark for Chinese Multi-modal Multi-type Question Understanding and Reasoning**](https://arxiv.org/abs/2401.14011) .
 
