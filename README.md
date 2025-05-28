@@ -17,7 +17,12 @@ Each question includes:
 - **Side information** (structured knowledge points and similar questions)
 
 These features support fine-grained evaluation of MM-LLMs on **reasoning**, **in-context learning**, and **generalization**.
-![](assets/Biology.png)  
+<p align="center">
+  <img src="assets/Biology.png" alt="Biology Example" height="280px" />
+  <img src="assets/Chemistry.png" alt="Chemistry Example" height="280px" />
+  <img src="assets/Math.png" alt="Math Example" height="280px" />
+</p>
+
 
 ## 📦 Dataset Format
 
