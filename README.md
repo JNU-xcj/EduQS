@@ -107,10 +107,9 @@ To further analyze the limitations of MM-LLMs, we present a case study of **GPT-
 <p align="center">
   <img src="assets/Case study All.png" width="100%"/>
   <br>
-  <em>Figure 7: Case studies of GPT-4o across six subjects. Mistakes include conceptual confusion, image misinterpretation, and logical reasoning errors.</em>
 </p>
 
-As illustrated in **Figure 7**, GPT-4o’s responses exhibit various types of reasoning flaws:
+As illustrated in Figure, GPT-4o’s responses exhibit various types of reasoning flaws:
 - 🧩 **Question misunderstanding**
 - 🧠 **Conceptual confusion**
 - 🖼️ **Image misinterpretation**
