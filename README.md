@@ -1,6 +1,6 @@
 # EduQS
 
-[**🤗 Dataset**](https://huggingface.co/datasets/chaosY/EduQS) | [**Paper**](https://your-paper-link.com)
+[**🤗 Dataset**](https://huggingface.co/datasets/chaosY/EduQS) | [**Github**](https://your-paper-link.com)
 
 This repository provides evaluation code and dataset details for the paper:
 
