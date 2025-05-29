@@ -23,6 +23,11 @@ These features support fine-grained evaluation of MM-LLMs on **reasoning**, **in
   <img src="assets/Math.png" alt="Math Example" height="300px" />
 </p>
 
+## 📈 Data Distribution
+
+| Difficulty Distribution | Question Type Distribution |
+|-------------------------|----------------------------|
+| ![](assets/Difficulty%20analysis.png) | ![](assets/Type%20analysis.png) |
 
 ## 📦 Dataset Format
 
