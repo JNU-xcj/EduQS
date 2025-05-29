@@ -18,9 +18,9 @@ Each question includes:
 
 These features support fine-grained evaluation of MM-LLMs on **reasoning**, **in-context learning**, and **generalization**.
 <p align="center">
-  <img src="assets/Biology.png" alt="Biology Example" height="350px" />
-  <img src="assets/Chemistry.png" alt="Chemistry Example" height="350px" />
-  <img src="assets/Math.png" alt="Math Example" height="350px" />
+  <img src="assets/Biology.png" alt="Biology Example" height="300px" />
+  <img src="assets/Chemistry.png" alt="Chemistry Example" height="300px" />
+  <img src="assets/Math.png" alt="Math Example" height="300px" />
 </p>
 
 
